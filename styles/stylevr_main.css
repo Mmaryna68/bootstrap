@@ -3,7 +3,7 @@
 }
 .card-img-top {
   background-color: #ec615b;
-  height: 180px;
+  min-height: 120px;
 }
 .root {
   display: grid;
