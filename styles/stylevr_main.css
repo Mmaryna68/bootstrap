@@ -1,0 +1,87 @@
+.row {
+  margin-top: 20px;
+}
+.card-img-top {
+  background-color: #ec615b;
+  height: 180px;
+}
+.root {
+  display: grid;
+  min-height: 90vh;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "footer footer";
+}
+.header {
+  display: flex;
+  grid-area: header;
+  background-color: blueviolet;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 10vh;
+  padding: 10px;
+}
+.header__button {
+  display: flex;
+  background-color: #5222d0;
+  width: 115px;
+  height: 38px;
+  border-radius: 100px;
+  right: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  padding-top: 22px;
+}
+.main__content {
+  text-align: start;
+  padding: 10px;
+  justify-items: start;
+}
+.main__content_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 10px;
+}
+.submit {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: grid;
+  background-color: #5222d0;
+  min-height: 40px;
+  width: 150px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  border-radius: 100px;
+}
+.h1 {
+  display: grid;
+  font-size: 60px;
+  font-family: "sans-serif", "Times New Roman", "Times", "serif";
+}
+.footer {
+  display: grid;
+  grid-area: footer;
+  padding: 40px;
+  margin-top: 45px;
+}
+.menu {
+  height: 20px;
+  justify-content: end;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 15px;
+}
